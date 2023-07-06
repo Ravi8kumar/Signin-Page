@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Sign in</title>
+<style>
+body {
+    background: url("https://1.bp.blogspot.com/-bQSkpZZW4Ac/YU0SUIkwSjI/AAAAAAAABu0/b5IvsMQZCNId0AtCf45nb9gZA49EBq1EgCLcBGAsYHQ/s0/Screenshot%2B%2528794%2529.jpg");
+   font-family: sans-serif;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sign-up{
+   width: 360px;
+   height: 620px;
+   margin: auto;
+   background-color: rgb(73, 58, 124);
+   border-radius: 10px;
+   border-color: black;
+}
+h1{
+   text-align: center;
+   padding-top: 15px;
+}
+
+form {
+   width: 300px;
+   margin-left: 20px;
+}
+
+form label {
+
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   font-size: 17px;
+}
+
+form input {
+   width: 100%;
+   padding: 7px;
+   justify-content: left;
+   border: none;
+   border: 1px solid gray;
+   border-radius: 6px;
+}
+
+button{
+   width: 320px;
+   height: 35px;
+   margin-top: 20px;
+   border: none;
+   background-color: rgb(181, 207, 181);
+   color: black;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(65, 62, 62);
+   color: white;
+}
+
+</style>
+
+<body>
+
+
+      <div class="sign-up">
+          <h1>Sign Up</h1>
+
+             <form>
+                    <label>First name</label>
+                      <input type="text" placeholder="First name">
+                    <label>Last name</label>
+                      <input type="text" placeholder="Last name">
+                    <label for="gender">Gender</label>
+                      <select name="gender" style="height: 30px; border-radius: 6px; width: 65px;">
+                         <option value="select" style="color: rgb(146, 142, 142);">select</option>
+                           <option value="male">Male</option>
+                           <option value="female">female</option>
+                           <option value="other">Other</option> 
+                       </select>
+                    <label for="number">&nbsp; &nbsp; Age</label>
+                      <input type="number" name="age" style="width: 85px; height: 12px; margin-top: 10px;" ><br>
+
+                    <label for="number">Phone number</label>
+                      <input type="number" name="number" placeholder="Phone number"><br>
+                    <label for="state">State</label><br>
+                      <select name="state" style="width: 312px; height: 30px; margin-top: 0px; border-radius: 6px;">
+                         <option value="select" style="color: rgb(146, 142, 142);">select</option>
+                            <option value="andhra">Andhra</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="kolkata">Kolkata</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="tamilnadu">Tamilnadu</option>
+                     </select><br>
+
+                     <label>Email</label>
+                        <input type="email" placeholder="Email">
+                     <label>Birthday</label>
+                        <input type="date" id="birthday" name="birthday">
+                     <label>Password</label>
+                        <input type="password" placeholder="Password">
+                     <label>Confirm Password</label>
+                        <input type="password" placeholder="Confirm Password">
+    
+                   <button type="submit">Create</button>
+
+
+
+
+<h4 style="margin-bottom: 20px; text-align: center;">Already have an account?<a href="signin">Sign in</a></h4>
+
+
+
+
+
+  
+    
+  </form>
+</head>
+</div>
+
+</body>
+</html>
+</body>
+</html>                 
